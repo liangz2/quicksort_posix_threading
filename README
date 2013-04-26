@@ -1,0 +1,3 @@
+qs.c is a practice quick sort example in C which uses POSIX Threads to siginificantly enchance the computational time.
+
+The program recursively calls the quicksort function and generates two thread that recursively calls it self again which in the end 127 threads will be generated.
